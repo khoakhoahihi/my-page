@@ -3,85 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giới Thiệu Nhóm - [Tên Nhóm]</title>
+    <title>Huyền Thoại Dũng Sĩ - Official Site</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="logo-placeholder">
-            <i class="fas fa-rocket"></i>
+
+    <nav>
+        <div class="logo">MY GAME STUDIO</div>
+        <div class="menu">
+            <a href="#about">Giới thiệu</a>
+            <a href="#story">Cốt truyện</a>
+            <a href="#media">Trailer & Ảnh</a>
+            <a href="#download" class="nav-btn">Tải Game</a>
         </div>
-        <nav>
-            <a href="#about-group">Nhóm</a>
-            <a href="#about-members">Thành viên</a>
-        </nav>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="game-title">HUYỀN THOẠI DŨNG SĨ</h1>
+            <p class="tagline">Định mệnh đã gọi tên. Bạn có dám trả lời?</p>
+            <div class="cta-buttons">
+                <a href="#download" class="btn btn-primary"><i class="fas fa-download"></i> Tải Ngay</a>
+                <a href="#media" class="btn btn-secondary"><i class="fas fa-play"></i> Xem Trailer</a>
+            </div>
+            <div class="tech-badges">
+                <span><i class="fab fa-unity"></i> Powered by Unity</span>
+                <span><i class="fas fa-code"></i> C#</span>
+            </div>
+        </div>
     </header>
 
-    <main>
-        <section id="about-group" class="hero-section">
-            <h1 class="group-name">Pixel Squad</h1>
-            <p class="slogan">Tên nhóm có thể tự đặt sáng tạo: Team Bitstorm, Pixel Squad...</p>
-            <div class="group-info">
-                <p><strong>Thông tin chung:</strong> Chúng tôi là một nhóm các nhà phát triển đam mê, tập hợp lại để thực hiện đồ án tốt nghiệp với mục tiêu tạo ra một sản phẩm đột phá.</p>
-                <p><strong>Năm thành lập:</strong> 2025</p>
+    <section id="about" class="section-dark">
+        <div class="container">
+            <h2>Về Trò Chơi</h2>
+            <div class="content-split">
+                <div class="text">
+                    <p><strong>Huyền Thoại Dũng Sĩ</strong> là một tựa game nhập vai hành động (ARPG) 2D với phong cách Pixel Art hoài cổ nhưng sở hữu cơ chế chiến đấu hiện đại, mượt mà.</p>
+                    <p>Người chơi sẽ được trải nghiệm hệ thống kỹ năng đa dạng, những trận đánh trùm (Boss fight) căng thẳng và khám phá một thế giới mở rộng lớn đầy bí ẩn.</p>
+                </div>
+                <div class="image">
+                    <img src="https://via.placeholder.com/500x300" alt="Gameplay Screenshot">
+                </div>
             </div>
-            <a href="#about-members" class="btn-primary">Gặp gỡ Thành viên</a>
-        </section>
+        </div>
+    </section>
 
-        <section id="about-members" class="members-section">
-            <h2>🧑‍💻 Đội Ngũ Phát Triển</h2>
-            <div class="members-grid">
-                
-                <div class="member-card">
-                    <img src="https://via.placeholder.com/150" alt="Ảnh đại diện A" class="member-avatar">
-                    <div class="member-details">
-                        <h3>Nguyễn Văn A</h3>
-                        <p class="role">Quản lý dự án & Thiết kế UX/UI</p>
-                        <p><strong>Năm sinh:</strong> 2000</p>
-                        <p class="bio">Sinh viên [Tên trường], đam mê thiết kế giao diện và đảm bảo dự án đi đúng hướng.</p>
-                        <div class="contact">
-                            <a href="mailto:a.nguyen@email.com"><i class="fas fa-envelope"></i></a>
-                            <a href="https://github.com/a-dev" target="_blank"><i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="member-card">
-                    <img src="https://via.placeholder.com/150" alt="Ảnh đại diện B" class="member-avatar">
-                    <div class="member-details">
-                        <h3>Trần Thị B</h3>
-                        <p class="role">Lập trình viên Backend & Cơ sở dữ liệu</p>
-                        <p><strong>Năm sinh:</strong> 2001</p>
-                        <p class="bio">Chuyên gia xử lý logic nghiệp vụ và tối ưu hóa truy vấn dữ liệu.</p>
-                        <div class="contact">
-                            <a href="mailto:b.tran@email.com"><i class="fas fa-envelope"></i></a>
-                            <a href="https://www.linkedin.com/in/b-tran" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="member-card">
-                    <img src="https://via.placeholder.com/150" alt="Ảnh đại diện C" class="member-avatar">
-                    <div class="member-details">
-                        <h3>Lê Hoàng C</h3>
-                        <p class="role">Lập trình viên Frontend & Viết nội dung</p>
-                        <p><strong>Năm sinh:</strong> 2000</p>
-                        <p class="bio">Mang lại trải nghiệm người dùng mượt mà và đảm bảo tài liệu rõ ràng.</p>
-                        <div class="contact">
-                            <a href="mailto:c.le@email.com"><i class="fas fa-envelope"></i></a>
-                            <a href="https://twitter.com/c_coder" target="_blank"><i class="fab fa-twitter"></i></a>
-                        </div>
-                    </div>
-                </div>
-
+    <section id="story" class="section-image">
+        <div class="overlay">
+            <div class="container center-text">
+                <h2>📜 Cốt Truyện</h2>
+                <p class="story-text">
+                    "Sau 1000 năm bị phong ấn, Chúa tể Bóng tối Malakor đã thức tỉnh. Vương quốc ánh sáng đang đứng trước bờ vực diệt vong. 
+                    <br><br>
+                    Bạn - một chiến binh vô danh từ ngôi làng nhỏ biên giới, bất ngờ phát hiện ra dòng máu Rồng cổ đại đang chảy trong huyết quản mình. 
+                    Hành trình giải cứu thế giới bắt đầu từ đây..."
+                </p>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+
+    <section id="media" class="section-dark">
+        <div class="container center-text">
+            <h2>Trailer & Gameplay</h2>
+            
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="gallery">
+                <img src="https://via.placeholder.com/300x200" alt="Screenshot 1">
+                <img src="https://via.placeholder.com/300x200" alt="Screenshot 2">
+                <img src="https://via.placeholder.com/300x200" alt="Screenshot 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="section-highlight">
+        <div class="container center-text">
+            <h2>Sẵn Sàng Chiến Đấu?</h2>
+            <p>Tải game miễn phí ngay hôm nay và tham gia vào cuộc hành trình.</p>
+            
+            <div class="download-options">
+                <a href="#" class="dl-card">
+                    <i class="fab fa-windows"></i>
+                    <h3>Windows</h3>
+                    <span>Google Drive</span>
+                </a>
+                <a href="#" class="dl-card">
+                    <i class="fab fa-apple"></i>
+                    <h3>macOS</h3>
+                    <span>Itch.io</span>
+                </a>
+                <a href="#" class="dl-card">
+                    <i class="fab fa-android"></i>
+                    <h3>Android</h3>
+                    <span>APK File</span>
+                </a>
+            </div>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2025 Pixel Squad. Tất cả quyền được bảo lưu.</p>
+        <p>&copy; 2025 Pixel Squad. Game được phát triển bằng Unity Engine.</p>
+        <div class="socials">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-discord"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
     </footer>
 
 </body>
