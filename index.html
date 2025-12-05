@@ -3,116 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Huyền Thoại Dũng Sĩ - Official Site</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>Pixel Store - Discover</title>
+    <link rel="stylesheet" href="style-store.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
     <nav>
-        <div class="logo">MY GAME STUDIO</div>
+        <div class="logo">PIXEL STORE</div>
         <div class="menu">
-            <a href="#about">Giới thiệu</a>
-            <a href="#story">Cốt truyện</a>
-            <a href="#media">Trailer & Ảnh</a>
-            <a href="#download" class="nav-btn">Tải Game</a>
+            <a href="#" class="active">Khám phá</a>
+            <a href="#">Duyệt xem</a>
+            <a href="#">Tin tức</a>
+        </div>
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Tìm kiếm...">
         </div>
     </nav>
 
-    <header class="hero">
-        <div class="hero-content">
-            <h1 class="game-title">HUYỀN THOẠI DŨNG SĨ</h1>
-            <p class="tagline">Định mệnh đã gọi tên. Bạn có dám trả lời?</p>
-            <div class="cta-buttons">
-                <a href="#download" class="btn btn-primary"><i class="fas fa-download"></i> Tải Ngay</a>
-                <a href="#media" class="btn btn-secondary"><i class="fas fa-play"></i> Xem Trailer</a>
-            </div>
-            <div class="tech-badges">
-                <span><i class="fab fa-unity"></i> Powered by Unity</span>
-                <span><i class="fas fa-code"></i> C#</span>
+    <main class="container">
+        
+        <div class="section-header">
+            <h2>Discover Something New <i class="fas fa-chevron-right"></i></h2>
+            <div class="nav-arrows">
+                <button class="arrow-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="arrow-btn"><i class="fas fa-chevron-right"></i></button>
             </div>
         </div>
-    </header>
 
-    <section id="about" class="section-dark">
-        <div class="container">
-            <h2>Về Trò Chơi</h2>
-            <div class="content-split">
-                <div class="text">
-                    <p><strong>Huyền Thoại Dũng Sĩ</strong> là một tựa game nhập vai hành động (ARPG) 2D với phong cách Pixel Art hoài cổ nhưng sở hữu cơ chế chiến đấu hiện đại, mượt mà.</p>
-                    <p>Người chơi sẽ được trải nghiệm hệ thống kỹ năng đa dạng, những trận đánh trùm (Boss fight) căng thẳng và khám phá một thế giới mở rộng lớn đầy bí ẩn.</p>
+        <div class="game-grid">
+
+            <a href="game-detail.html" class="game-card">
+                <div class="image-container">
+                    <img src="https://via.placeholder.com/300x450/2c3e50/ffffff?text=Game+RPG" alt="Game Cover">
+                    <div class="overlay"><i class="fas fa-plus-circle"></i></div>
                 </div>
-                <div class="image">
-                    <img src="https://via.placeholder.com/500x300" alt="Gameplay Screenshot">
+                <div class="card-info">
+                    <span class="game-type">Base Game</span>
+                    <h3 class="game-title">Huyền Thoại Dũng Sĩ</h3>
+                    <div class="price-tag">Miễn phí</div>
                 </div>
-            </div>
-        </div>
-    </section>
+            </a>
 
-    <section id="story" class="section-image">
-        <div class="overlay">
-            <div class="container center-text">
-                <h2>📜 Cốt Truyện</h2>
-                <p class="story-text">
-                    "Sau 1000 năm bị phong ấn, Chúa tể Bóng tối Malakor đã thức tỉnh. Vương quốc ánh sáng đang đứng trước bờ vực diệt vong. 
-                    <br><br>
-                    Bạn - một chiến binh vô danh từ ngôi làng nhỏ biên giới, bất ngờ phát hiện ra dòng máu Rồng cổ đại đang chảy trong huyết quản mình. 
-                    Hành trình giải cứu thế giới bắt đầu từ đây..."
-                </p>
-            </div>
-        </div>
-    </section>
+            <a href="game-detail.html" class="game-card">
+                <div class="image-container">
+                    <img src="https://via.placeholder.com/300x450/8e44ad/ffffff?text=Space+War" alt="Game Cover">
+                </div>
+                <div class="card-info">
+                    <span class="game-type">Base Game</span>
+                    <h3 class="game-title">Space Shooter 2025</h3>
+                    <div class="price-tag">₫188,000</div>
+                </div>
+            </a>
 
-    <section id="media" class="section-dark">
-        <div class="container center-text">
-            <h2>Trailer & Gameplay</h2>
-            
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+            <a href="#" class="game-card">
+                <div class="image-container">
+                    <img src="https://via.placeholder.com/300x450/c0392b/ffffff?text=Zombies" alt="Game Cover">
+                </div>
+                <div class="card-info">
+                    <span class="game-type">Base Game</span>
+                    <h3 class="game-title">Dark Fairy Tale</h3>
+                    <div class="price-tag">₫52,000</div>
+                </div>
+            </a>
 
-            <div class="gallery">
-                <img src="https://via.placeholder.com/300x200" alt="Screenshot 1">
-                <img src="https://via.placeholder.com/300x200" alt="Screenshot 2">
-                <img src="https://via.placeholder.com/300x200" alt="Screenshot 3">
-            </div>
-        </div>
-    </section>
+            <a href="#" class="game-card">
+                <div class="image-container">
+                    <img src="https://via.placeholder.com/300x450/27ae60/ffffff?text=Adventure" alt="Game Cover">
+                </div>
+                <div class="card-info">
+                    <span class="game-type">DLC</span>
+                    <h3 class="game-title">Shrine's Legacy</h3>
+                    <div class="price-tag">₫186,000</div>
+                </div>
+            </a>
 
-    <section id="download" class="section-highlight">
-        <div class="container center-text">
-            <h2>Sẵn Sàng Chiến Đấu?</h2>
-            <p>Tải game miễn phí ngay hôm nay và tham gia vào cuộc hành trình.</p>
-            
-            <div class="download-options">
-                <a href="#" class="dl-card">
-                    <i class="fab fa-windows"></i>
-                    <h3>Windows</h3>
-                    <span>Google Drive</span>
-                </a>
-                <a href="#" class="dl-card">
-                    <i class="fab fa-apple"></i>
-                    <h3>macOS</h3>
-                    <span>Itch.io</span>
-                </a>
-                <a href="#" class="dl-card">
-                    <i class="fab fa-android"></i>
-                    <h3>Android</h3>
-                    <span>APK File</span>
-                </a>
-            </div>
-        </div>
-    </section>
+            <a href="#" class="game-card">
+                <div class="image-container">
+                    <img src="https://via.placeholder.com/300x450/d35400/ffffff?text=Action" alt="Game Cover">
+                </div>
+                <div class="card-info">
+                    <span class="game-type">Base Game</span>
+                    <h3 class="game-title">Retrace the Light</h3>
+                    <div class="price-tag">Miễn phí</div>
+                </div>
+            </a>
 
-    <footer>
-        <p>&copy; 2025 Pixel Squad. Game được phát triển bằng Unity Engine.</p>
-        <div class="socials">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-discord"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
         </div>
-    </footer>
+    </main>
 
 </body>
 </html>
